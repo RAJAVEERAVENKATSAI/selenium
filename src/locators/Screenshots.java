@@ -52,7 +52,7 @@ public class Screenshots {
 		
 		//using Webdriver
 		
-//		RISEUP TEC SOLUTIONS
+
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
