@@ -1,14 +1,13 @@
 package selenium;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.fasterxml.jackson.databind.introspect.TypeResolutionContext.Basic;
-// HELLO 
-public class HELLO {
 
+public class HELLO {
+// sELENIUM JAVA 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
      //WebDriver driver = new ChromeDriver();
@@ -20,6 +19,7 @@ public class HELLO {
 	//driver.findElement(By.cssSelector("class"));
 	//Element.sendKeys("testUser");
      int i=10 ;
+      
      System .out.println(i);
 //     Basic b = new Basic();
     
