@@ -33,7 +33,10 @@ public class DragDrop {
 //      sai.dragAndDrop(driver.findElement(By.id("email")), driver.findElement(By.name("pass"))).build().perform();
 //      Thread.sleep(3000);
 //      driver.quit();
-    		  
+    	 
+      
+      
+    //  VDHGCGVMNBVMHGG
 	}
 
 }
