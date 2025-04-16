@@ -18,7 +18,8 @@ public class DragDrop {
 		WebDriverManager.chromedriver().setup();
       WebDriver driver = new ChromeDriver();
       driver.manage().window().maximize();
-   
+   // JUNIOR NTR
+      
       Actions sai = new Actions(driver); 
       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
       driver.get("https://jqueryui.com/droppable/");
