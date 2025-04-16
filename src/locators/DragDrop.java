@@ -18,8 +18,9 @@ public class DragDrop {
 		WebDriverManager.chromedriver().setup();
       WebDriver driver = new ChromeDriver();
       driver.manage().window().maximize();
-      
-      Actions sai = new Actions(driver); 
+//      BHANUPRASADRAIKANTI
+     // MADIKONDA
+      Actions sai = new Actions(driver);
       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
       driver.get("https://jqueryui.com/droppable/");
       WebElement  w = driver.findElement(By.xpath("(//iframe[@class=\"demo-frame\"])"));   //framesin dragdrop
