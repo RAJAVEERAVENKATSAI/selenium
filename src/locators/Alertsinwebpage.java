@@ -52,7 +52,7 @@ public class Alertsinwebpage {
 		Thread.sleep(3000);
 		System.out.println(driver.switchTo().alert().getText());
 		Thread.sleep(3000);
-		driver.switchTo().alert().sendKeys("HYR TUTORIALS");
+		driver.switchTo().alert().sendKeys("HYR");
 		driver.switchTo().alert().accept();
 		System.out.println(driver.findElement(By.id("output")).getText());
 		driver.findElement(By.id("promptBox")).click();
